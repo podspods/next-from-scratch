@@ -34,3 +34,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+# docker postgreSql
+
+
+dockerfile 
+```sh
+docker pull postgres
+
+```
+
+```sh
+docker volume create pgdata
+
+```
+
+```sh
+docker run --name mon_postgres -e POSTGRES_PASSWORD=ma_mot_de_passe -v pgdata:/var/lib/postgresql/data -p 5432:5432 -d postgres
+
+
+```
+
+user :postgres
+pass :ma_mot_de_passe
