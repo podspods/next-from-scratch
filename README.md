@@ -59,4 +59,4 @@ docker run --name mon_postgres -e POSTGRES_PASSWORD=ma_mot_de_passe -v pgdata:/v
 ```
 
 user :postgres
-pass :ma_mot_de_passe
+pass :ma_mot_de_passe# next-from-scratch
