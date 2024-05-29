@@ -60,3 +60,25 @@ docker run --name mon_postgres -e POSTGRES_PASSWORD=ma_mot_de_passe -v pgdata:/v
 
 user :postgres
 pass :ma_mot_de_passe# next-from-scratch
+
+
+user irachus pass irachus
+
+# connexion postgreSQL
+
+
+1. 
+```sh
+npm install pg dotenv
+```
+
+# utilisation de pg ou prisma
+
+
+## API
+
+mettre dans pages/api  les cruds
+access par fetch (api)
+
+full stack dev : 
+

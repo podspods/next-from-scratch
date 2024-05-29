@@ -10,12 +10,12 @@ export const linkList: LinkDef[] = [
   { name: 'Accueil', href: '/', icon: HomeIcon },
   {
     name: 'Fondamentaux',
-    href: '/page/basics',
+    href: '/pages/basics',
     icon: AcademicCapIcon
   },
-  { name: 'Placements', href: '/page/placement', icon: UserGroupIcon },
-  { name: 'Rappel', href: '/page/recall', icon: UserGroupIcon },
-  { name: 'Test', href: '/page/test', icon: ShieldCheckIcon }
+  { name: 'Placements', href: '/pages/placement', icon: UserGroupIcon },
+  { name: 'Rappel', href: '/pages/recall', icon: UserGroupIcon },
+  { name: 'Test', href: '/pages/test', icon: ShieldCheckIcon }
 ];
 
 export const basicVideo: LinkDef[] = [
